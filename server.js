@@ -1,1 +1,1 @@
-require('./lib/app').listen(3000);
+require('./lib/app').listen(process.env.PORT || 3000);

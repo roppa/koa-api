@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "jest --watchAll",
-    "debug": "DEBUG=* npm run start" 
+    "debug": "DEBUG=* npm run start"
   },
   "jest": {
     "testEnvironment": "node"
@@ -13,12 +13,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bunyan": "^1.8.12",
+    "bunyan-logstash": "^0.3.4",
+    "content-type": "^1.0.4",
     "debug": "^3.1.0",
+    "install": "^0.10.4",
     "koa": "^2.5.0",
+    "koa-better-body": "^3.0.4",
     "koa-body": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
     "koa-helmet": "^3.3.0",
     "koa-mount": "^3.0.0",
-    "koa-router": "^7.4.0"
+    "koa-router": "^7.4.0",
+    "npm": "^5.6.0",
+    "raw-body": "^2.3.2"
   },
   "devDependencies": {
     "jest": "^22.3.0",
